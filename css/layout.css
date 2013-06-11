@@ -21,6 +21,15 @@ p {
   margin-bottom: 20px;
   line-height: 1.2em;
 }
+.blue {
+  background-color: #33C0F9;
+}
+.red {
+  background-color: #ff2000;
+}
+.orange {
+  background-color: #FD8933;
+}
 .innerPage {
   width: 950px;
   position: relative;
@@ -65,7 +74,6 @@ p {
 .innerPage .contentWrapper article .articleContent {
   width: 69%;
   float: right;
-  background-color: #ff2000;
   padding: 20px 20px 0 20px;
 }
 .innerPage .contentWrapper article .articleContent img {
