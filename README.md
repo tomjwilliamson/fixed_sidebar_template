@@ -1,4 +1,4 @@
-fixed_sidebar_template
+Fixed Sidebar Template
 ======================
 
 Fixed sidebar template for Gooner
