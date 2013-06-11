@@ -1,0 +1,74 @@
+/*
+-- Styles for template
+
+You can edit this less file and compile to css...or just edit the css
+
+*/
+body {
+  background-color: #ffffff;
+  font-family: arial, helvetica, sans-serif;
+  color: #000000;
+}
+h1 {
+  font-size: 75px;
+  letter-spacing: -6px;
+}
+h2 {
+  font-size: 45px;
+  letter-spacing: -3px;
+}
+p {
+  margin-bottom: 20px;
+  line-height: 1.2em;
+}
+.innerPage {
+  width: 950px;
+  position: relative;
+  padding: 10px 0 0 10px;
+}
+.innerPage .sidebar {
+  width: 245px;
+  float: left;
+  position: fixed;
+}
+.innerPage .sidebar ul {
+  margin-top: 20px;
+}
+.innerPage .sidebar ul li {
+  line-height: 2.5em;
+}
+.innerPage .sidebar ul li a {
+  color: #000000;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  font-size: 35px;
+  text-decoration: none;
+}
+.innerPage .sidebar ul li a:hover {
+  color: #fff200;
+}
+.innerPage .contentWrapper {
+  width: 705px;
+  float: right;
+  margin-top: 145px;
+}
+.innerPage .contentWrapper article {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.innerPage .contentWrapper article h2.articleHeader {
+  width: 24%;
+  float: left;
+  text-align: right;
+  padding-right: 2px;
+}
+.innerPage .contentWrapper article .articleContent {
+  width: 69%;
+  float: right;
+  background-color: #ff2000;
+  padding: 20px 20px 0 20px;
+}
+.innerPage .contentWrapper article .articleContent img {
+  width: 100%;
+  margin-bottom: 20px;
+}
